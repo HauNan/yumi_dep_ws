@@ -1,8 +1,0 @@
-prefix=/home/houlam/yumi_depends_ws/install
-
-Name: yumi_launch
-Description: Description of yumi_launch
-Version: 0.0.4
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

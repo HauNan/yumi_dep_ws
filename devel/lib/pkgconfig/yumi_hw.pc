@@ -1,8 +1,0 @@
-prefix=/home/houlam/yumi_depends_ws/devel
-
-Name: yumi_hw
-Description: Description of yumi_hw
-Version: 0.0.4
-Cflags: -I/home/houlam/yumi_depends_ws/devel/include -I/home/houlam/yumi_depends_ws/src/yumi/yumi_hw/include
-Libs: -L${prefix}/lib -lyumi_hw
-Requires: cmake_modules control_toolbox controller_interface controller_manager hardware_interface joint_limits_interface kdl_parser realtime_tools roscpp std_msgs tf transmission_interface urdf simple_message message_generation abb_rws_interface

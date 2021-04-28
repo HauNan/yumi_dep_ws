@@ -1,8 +1,0 @@
-prefix=/home/houlam/yumi_depends_ws/devel
-
-Name: aruco_ros
-Description: Description of aruco_ros
-Version: 2.1.1
-Cflags: -I/home/houlam/yumi_depends_ws/devel/include -I/home/houlam/yumi_depends_ws/src/yumi/aruco_ros/aruco_ros/include
-Libs: -L${prefix}/lib -laruco_ros_utils
-Requires: aruco sensor_msgs tf

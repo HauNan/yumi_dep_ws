@@ -1,8 +1,0 @@
-prefix=/home/houlam/yumi_depends_ws/install
-
-Name: abb_rws_interface
-Description: Description of abb_rws_interface
-Version: 0.0.0
-Cflags: -I${prefix}/include -I/usr/include
-Libs: -L${prefix}/lib -labb_rws_interface /usr/lib/x86_64-linux-gnu/libcurl.so
-Requires: 
