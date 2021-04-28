@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<robot name="realsense_cameras" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- d435  frame definition can be found at https://github.com/IntelRealSense/librealsense/blob/master/doc/d435i.md -->
+  <xacro:include filename="$(find realsense_gazebo_description)/urdf/_d435.urdf.xacro"/>
+  <xacro:sensor_d435  parent="yumi_body" name="camera1" topics_ns="camera1"
+                      enable_pointCloud="false"
+                      clip_distance="-1.0"
+                      align_depth="true"
+                      visualize="false"
+
+                      depth_width="1280"
+                      depth_height="720"
+                      depth_fps="30"
+
+                      infra_width="640"
+                      infra_height="480"
+                      infra_fps="30"
+
+                      color_width="1920"
+                      color_height="1080"
+                      color_fps="30"
+                      >
+    <origin xyz="1.1 0 0.9" rpy="0 -4.0 0"/>
+  </xacro:sensor_d435>
+  
+  <xacro:sensor_d435  parent="gripper_r_base" name="camera2" topics_ns="camera2"
+                      enable_pointCloud="false"
+                      clip_distance="-1.0"
+                      align_depth="true"
+                      visualize="false"
+
+                      depth_width="1280"
+                      depth_height="720"
+                      depth_fps="30"
+
+                      infra_width="640"
+                      infra_height="480"
+                      infra_fps="30"
+
+                      color_width="1920"
+                      color_height="1080"
+                      color_fps="30"
+                      >
+    <origin xyz="0 0.05 0.03" rpy="0 -1.5708 -1.5708"/>
+  </xacro:sensor_d435>
+
+</robot>

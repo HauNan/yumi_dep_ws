@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/houlam/yumi_depends_ws/devel/include",
+        "/home/houlam/catkin_yumi/devel/include",
+        "/opt/ros/kinetic/include",
+        "/home/houlam/yumi_depends_ws/src/abb_rws_interface/include",
+        "/home/houlam/yumi_depends_ws/src/yumi/aruco_ros/aruco/include",
+        "/home/houlam/yumi_depends_ws/src/yumi/aruco_ros/aruco_ros/include",
+        "/home/houlam/yumi_depends_ws/src/ddynamic_reconfigure/include",
+        "/home/houlam/yumi_depends_ws/src/yumi/image_pipeline/depth_image_proc/include",
+        "/home/houlam/yumi_depends_ws/src/yumi/gazebo_mimic/include",
+        "/home/houlam/yumi_depends_ws/src/yumi/image_pipeline/image_proc/include",
+        "/home/houlam/yumi_depends_ws/src/realsense-ros/realsense2_camera/include",
+        "/home/houlam/yumi_depends_ws/src/yumi/image_pipeline/stereo_image_proc/include",
+        "/home/houlam/yumi_depends_ws/src/yumi/vision_msgs/include",
+        "/home/houlam/yumi_depends_ws/src/yumi/yumi_cameras/include",
+        "/home/houlam/yumi_depends_ws/src/yumi/yumi_hw/include",
+        "/home/houlam/yumi_depends_ws/src/yumi/yumi_ik/include",
+        "/home/houlam/yumi_depends_ws/src/yumi/yumi_test_controllers/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}
