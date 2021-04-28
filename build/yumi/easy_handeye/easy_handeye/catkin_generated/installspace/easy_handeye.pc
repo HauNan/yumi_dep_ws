@@ -1,0 +1,8 @@
+prefix=/home/houlam/yumi_depends_ws/install
+
+Name: easy_handeye
+Description: Description of easy_handeye
+Version: 0.3.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

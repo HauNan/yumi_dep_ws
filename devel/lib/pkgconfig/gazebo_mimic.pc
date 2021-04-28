@@ -1,0 +1,8 @@
+prefix=/home/houlam/yumi_depends_ws/devel
+
+Name: gazebo_mimic
+Description: Description of gazebo_mimic
+Version: 0.0.4
+Cflags: -I/home/houlam/yumi_depends_ws/src/yumi/gazebo_mimic/include
+Libs: -L${prefix}/lib -lgazebo_mimic_plugin
+Requires: roscpp

@@ -1,0 +1,32 @@
+digraph G {
+"yumi_base_link" -> "yumi_body"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1607412682.422 sec old)\nBuffer length: 0.000 sec\n"];
+"yumi_link_7_l" -> "gripper_l_base"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1607412682.422 sec old)\nBuffer length: 0.000 sec\n"];
+"yumi_link_6_l" -> "yumi_link_7_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.062 Hz\nMost recent transform: 1607412682.343 ( 0.078 sec old)\nBuffer length: 4.870 sec\n"];
+"yumi_link_7_r" -> "gripper_r_base"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1607412682.422 sec old)\nBuffer length: 0.000 sec\n"];
+"yumi_link_6_r" -> "yumi_link_7_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.060 Hz\nMost recent transform: 1607412682.360 ( 0.061 sec old)\nBuffer length: 4.871 sec\n"];
+"camera_link" -> "camera_color_frame"[label="Broadcaster: /camera/realsense2_camera_manager\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1607412682.422 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_link" -> "camera_depth_frame"[label="Broadcaster: /camera/realsense2_camera_manager\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1607412682.422 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_depth_frame" -> "camera_depth_optical_frame"[label="Broadcaster: /camera/realsense2_camera_manager\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1607412682.422 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_color_frame" -> "camera_color_optical_frame"[label="Broadcaster: /camera/realsense2_camera_manager\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1607412682.422 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_color_optical_frame" -> "camera_marker"[label="Broadcaster: /aruco_tracker\nAverage rate: 29.980 Hz\nMost recent transform: 1607412682.373 ( 0.049 sec old)\nBuffer length: 4.937 sec\n"];
+"yumi_body" -> "yumi_link_1_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.062 Hz\nMost recent transform: 1607412682.343 ( 0.078 sec old)\nBuffer length: 4.870 sec\n"];
+"yumi_link_1_l" -> "yumi_link_2_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.062 Hz\nMost recent transform: 1607412682.343 ( 0.078 sec old)\nBuffer length: 4.870 sec\n"];
+"yumi_link_3_l" -> "yumi_link_4_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.062 Hz\nMost recent transform: 1607412682.343 ( 0.078 sec old)\nBuffer length: 4.870 sec\n"];
+"yumi_link_2_l" -> "yumi_link_3_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.062 Hz\nMost recent transform: 1607412682.343 ( 0.078 sec old)\nBuffer length: 4.870 sec\n"];
+"yumi_link_4_l" -> "yumi_link_5_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.062 Hz\nMost recent transform: 1607412682.343 ( 0.078 sec old)\nBuffer length: 4.870 sec\n"];
+"yumi_link_5_l" -> "yumi_link_6_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.062 Hz\nMost recent transform: 1607412682.343 ( 0.078 sec old)\nBuffer length: 4.870 sec\n"];
+"yumi_body" -> "yumi_link_1_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.060 Hz\nMost recent transform: 1607412682.360 ( 0.061 sec old)\nBuffer length: 4.871 sec\n"];
+"yumi_link_1_r" -> "yumi_link_2_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.060 Hz\nMost recent transform: 1607412682.360 ( 0.061 sec old)\nBuffer length: 4.871 sec\n"];
+"yumi_link_3_r" -> "yumi_link_4_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.060 Hz\nMost recent transform: 1607412682.360 ( 0.061 sec old)\nBuffer length: 4.871 sec\n"];
+"yumi_link_2_r" -> "yumi_link_3_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.060 Hz\nMost recent transform: 1607412682.360 ( 0.061 sec old)\nBuffer length: 4.871 sec\n"];
+"yumi_link_4_r" -> "yumi_link_5_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.060 Hz\nMost recent transform: 1607412682.360 ( 0.061 sec old)\nBuffer length: 4.871 sec\n"];
+"yumi_link_5_r" -> "yumi_link_6_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.060 Hz\nMost recent transform: 1607412682.360 ( 0.061 sec old)\nBuffer length: 4.871 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1607412682.422"[ shape=plaintext ] ;
+ }->"yumi_base_link";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1607412682.422"[ shape=plaintext ] ;
+ }->"camera_link";
+}
