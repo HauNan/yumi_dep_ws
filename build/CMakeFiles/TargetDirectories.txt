@@ -382,13 +382,6 @@
 /home/houlam/yumi_depends_ws/build/yumi/vision_msgs/test/CMakeFiles/clean_test_results_vision_msgs.dir
 /home/houlam/yumi_depends_ws/build/yumi/vision_msgs/test/CMakeFiles/test.dir
 /home/houlam/yumi_depends_ws/build/yumi/vision_msgs/test/CMakeFiles/edit_cache.dir
-/home/houlam/yumi_depends_ws/build/yumi/tensorflow_object_detector/CMakeFiles/install/strip.dir
-/home/houlam/yumi_depends_ws/build/yumi/tensorflow_object_detector/CMakeFiles/install/local.dir
-/home/houlam/yumi_depends_ws/build/yumi/tensorflow_object_detector/CMakeFiles/test.dir
-/home/houlam/yumi_depends_ws/build/yumi/tensorflow_object_detector/CMakeFiles/edit_cache.dir
-/home/houlam/yumi_depends_ws/build/yumi/tensorflow_object_detector/CMakeFiles/rebuild_cache.dir
-/home/houlam/yumi_depends_ws/build/yumi/tensorflow_object_detector/CMakeFiles/install.dir
-/home/houlam/yumi_depends_ws/build/yumi/tensorflow_object_detector/CMakeFiles/list_install_components.dir
 /home/houlam/yumi_depends_ws/build/yumi/yumi_cameras/CMakeFiles/install/strip.dir
 /home/houlam/yumi_depends_ws/build/yumi/yumi_cameras/CMakeFiles/install/local.dir
 /home/houlam/yumi_depends_ws/build/yumi/yumi_cameras/CMakeFiles/install.dir
