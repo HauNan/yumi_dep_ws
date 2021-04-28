@@ -1,0 +1,8 @@
+prefix=/home/houlam/yumi_depends_ws/devel
+
+Name: image_rotate
+Description: Description of image_rotate
+Version: 1.15.2
+Cflags: -I/home/houlam/yumi_depends_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

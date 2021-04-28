@@ -1,0 +1,8 @@
+prefix=/home/houlam/yumi_depends_ws/install
+
+Name: yumi_cameras
+Description: Description of yumi_cameras
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lyumi_cameras
+Requires: abb_rws_interface roscpp
