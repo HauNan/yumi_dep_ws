@@ -2354,7 +2354,7 @@ gazebo_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_lisp/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
 .PHONY : gazebo_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -2367,7 +2367,7 @@ gazebo_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_eus/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
 .PHONY : gazebo_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -2380,7 +2380,7 @@ gazebo_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_py/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
 .PHONY : gazebo_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -2393,7 +2393,7 @@ std_srvs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_nodejs/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
 .PHONY : std_srvs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -2406,7 +2406,7 @@ trajectory_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_eus/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
 .PHONY : trajectory_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -2419,7 +2419,7 @@ gazebo_ros_gencfg: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_ros_gencfg/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/build
 .PHONY : gazebo_ros_gencfg/fast
 
 #=============================================================================
@@ -2432,7 +2432,7 @@ std_srvs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_cpp/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -2445,7 +2445,7 @@ trajectory_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_nodejs/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
 .PHONY : trajectory_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -2458,7 +2458,7 @@ std_srvs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_py/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/build.make realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/build
 .PHONY : std_srvs_generate_messages_py/fast
 
 #=============================================================================
@@ -2471,7 +2471,7 @@ gazebo_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_nodejs/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
 .PHONY : gazebo_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -2484,7 +2484,7 @@ std_srvs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_eus/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/build
 .PHONY : std_srvs_generate_messages_eus/fast
 
 #=============================================================================
@@ -2497,8 +2497,21 @@ gazebo_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_cpp/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
 .PHONY : gazebo_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named realsense_gazebo_gyro_sensor
+
+# Build rule for target.
+realsense_gazebo_gyro_sensor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 realsense_gazebo_gyro_sensor
+.PHONY : realsense_gazebo_gyro_sensor
+
+# fast build rule for target.
+realsense_gazebo_gyro_sensor/fast:
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_gyro_sensor.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_gyro_sensor.dir/build
+.PHONY : realsense_gazebo_gyro_sensor/fast
 
 #=============================================================================
 # Target rules for targets named std_srvs_generate_messages_lisp
@@ -2510,7 +2523,7 @@ std_srvs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_lisp/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -2523,7 +2536,7 @@ trajectory_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_cpp/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -2536,8 +2549,21 @@ trajectory_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_lisp/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named realsense_gazebo_accel_sensor
+
+# Build rule for target.
+realsense_gazebo_accel_sensor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 realsense_gazebo_accel_sensor
+.PHONY : realsense_gazebo_accel_sensor
+
+# fast build rule for target.
+realsense_gazebo_accel_sensor/fast:
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_accel_sensor.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_accel_sensor.dir/build
+.PHONY : realsense_gazebo_accel_sensor/fast
 
 #=============================================================================
 # Target rules for targets named trajectory_msgs_generate_messages_py
@@ -2549,7 +2575,7 @@ trajectory_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_py/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
 .PHONY : trajectory_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -2562,7 +2588,7 @@ realsense_gazebo_plugin: cmake_check_build_system
 
 # fast build rule for target.
 realsense_gazebo_plugin/fast:
-	$(MAKE) $(MAKESILENT) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build
+	$(MAKE) $(MAKESILENT) -f yumi/realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make yumi/realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build
 .PHONY : realsense_gazebo_plugin/fast
 
 #=============================================================================
@@ -3757,6 +3783,8 @@ help:
 	@echo "... image_rotate"
 	@echo "... image_rotate_exe"
 	@echo "... marker_publisher"
+	@echo "... realsense_gazebo_accel_sensor"
+	@echo "... realsense_gazebo_gyro_sensor"
 	@echo "... realsense_gazebo_plugin"
 	@echo "... rws_continuous_trigger"
 	@echo "... single"

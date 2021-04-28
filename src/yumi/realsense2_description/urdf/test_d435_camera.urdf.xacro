@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="realsense2_camera" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro" />
+
+  <!-- <link name="base_link" /> -->
+  
+  <xacro:sensor_d435 name="camera1" topics_ns="camera1" parent="yumi_body" publish_pointcloud="false">
+    <origin xyz="1.1 0 0.9" rpy="0 -4.0 0"/>
+  </xacro:sensor_d435>  
+  
+  <xacro:sensor_d435 name="camera2" topics_ns="camera2" parent="gripper_r_base" publish_pointcloud="false">
+    <origin xyz="0 0.05 0.03" rpy="0 -1.5708 -1.5708"/>
+    <!-- red - x green - y blue -z  /> -->
+  </xacro:sensor_d435>  
+</robot>
