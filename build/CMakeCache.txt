@@ -1322,6 +1322,12 @@ yumi_moveit_config_BINARY_DIR:STATIC=/home/houlam/yumi_depends_ws/build/yumi/yum
 yumi_moveit_config_SOURCE_DIR:STATIC=/home/houlam/yumi_depends_ws/src/yumi/yumi_moveit_config
 
 //Value Computed by CMake
+yumi_moveit_demos_BINARY_DIR:STATIC=/home/houlam/yumi_depends_ws/build/yumi_demos/yumi_moveit_demos
+
+//Value Computed by CMake
+yumi_moveit_demos_SOURCE_DIR:STATIC=/home/houlam/yumi_depends_ws/src/yumi_demos/yumi_moveit_demos
+
+//Value Computed by CMake
 yumi_support_BINARY_DIR:STATIC=/home/houlam/yumi_depends_ws/build/yumi/yumi_support
 
 //Value Computed by CMake
@@ -1674,7 +1680,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=33
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=34
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

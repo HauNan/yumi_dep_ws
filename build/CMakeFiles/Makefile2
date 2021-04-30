@@ -98,6 +98,7 @@ all: yumi/yumi_control/all
 all: yumi/yumi_description/all
 all: yumi/yumi_hw/all
 all: yumi/yumi_moveit_config/all
+all: yumi_demos/yumi_moveit_demos/all
 all: yumi/yumi_support/all
 all: yumi/yumi_launch/all
 all: yumi/yumi_test_controllers/all
@@ -131,6 +132,7 @@ preinstall: yumi/yumi_control/preinstall
 preinstall: yumi/yumi_description/preinstall
 preinstall: yumi/yumi_hw/preinstall
 preinstall: yumi/yumi_moveit_config/preinstall
+preinstall: yumi_demos/yumi_moveit_demos/preinstall
 preinstall: yumi/yumi_support/preinstall
 preinstall: yumi/yumi_launch/preinstall
 preinstall: yumi/yumi_test_controllers/preinstall
@@ -169,6 +171,7 @@ clean: yumi/yumi_control/clean
 clean: yumi/yumi_description/clean
 clean: yumi/yumi_hw/clean
 clean: yumi/yumi_moveit_config/clean
+clean: yumi_demos/yumi_moveit_demos/clean
 clean: yumi/yumi_support/clean
 clean: yumi/yumi_launch/clean
 clean: yumi/yumi_test_controllers/clean
@@ -1006,6 +1009,24 @@ yumi/yumi_test_controllers/clean: yumi/yumi_test_controllers/CMakeFiles/test_tra
 yumi/yumi_test_controllers/clean: yumi/yumi_test_controllers/CMakeFiles/test_vel_control.dir/clean
 
 .PHONY : yumi/yumi_test_controllers/clean
+
+#=============================================================================
+# Directory level rules for directory yumi_demos/yumi_moveit_demos
+
+# Recursive "all" directory target.
+yumi_demos/yumi_moveit_demos/all:
+
+.PHONY : yumi_demos/yumi_moveit_demos/all
+
+# Recursive "preinstall" directory target.
+yumi_demos/yumi_moveit_demos/preinstall:
+
+.PHONY : yumi_demos/yumi_moveit_demos/preinstall
+
+# Recursive "clean" directory target.
+yumi_demos/yumi_moveit_demos/clean:
+
+.PHONY : yumi_demos/yumi_moveit_demos/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/clean_test_results.dir

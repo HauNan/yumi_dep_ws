@@ -39,8 +39,6 @@ yumi/joint_vel_controller_2_r
 ......
 [moveit.config-YAML]
 
-
-
 [仿真D gazebo_pos]
 roslaunch yumi_launch yumi_gazebo_pos_control.launch
 
@@ -65,5 +63,18 @@ eg：
 
 joint_traj
 
+[问题]
+Interactive marker 'EE:goal_yumi_link_7_l' contains unnormalized quaternions. This warning will only be output once but may be true for others; enable DEBUG messages for ros.rviz.quaternions to see more details.
+
+打开：moveit.rviz
+修改：Interactive Marker Size: 0
+变为：Interactive Marker Size: 0.25
+不能解决
+
+[问题]
+夹爪是如何控制的:
+/yumi/gripper_states
+/yumi/gripper_r_effort_cmd
+/yumi/gripper_r_effort_controller_r/command
 
 
